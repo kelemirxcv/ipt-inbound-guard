@@ -1,0 +1,14 @@
+# Never publish live firewall rules, usernames, IP allowlists, or credentials.
+rules.db
+interval.conf
+last_refresh
+last_applied.sha256
+refresh.lock
+*.key
+*.pem
+*.secret
+*.env
+.env*
+*.bak*
+*backup*
+__pycache__/
